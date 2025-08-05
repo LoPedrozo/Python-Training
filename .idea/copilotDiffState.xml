@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Exercicios/ex016.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex016.py" />
+              <option name="updatedContent" value="# Exercício 016&#10;# Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua porção inteira.&#10;from math import trunc&#10;num = float(input('Digite um valor: '))&#10;print(f'A parte inteira de {num} é {trunc(num)}')&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Exercicios/ex017.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex017.py" />
+              <option name="updatedContent" value="# Exercício 017&#10;# Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo,&#10;# calcule e mostre o comprimento da hipotenusa.&#10;from math import hypot&#10;co = float(input('Comprimento do cateto oposto: '))&#10;ca = float(input('Comprimento do cateto adjacente: '))&#10;hi = hypot(co, ca)&#10;print(f'A hipotenusa vai medir {hi:.2f}')&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Exercicios/ex018.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex018.py" />
+              <option name="updatedContent" value="# Exercício 018&#10;# Leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.&#10;from math import radians, sin, cos, tan&#10;ang = float(input('Digite o ângulo que você deseja: '))&#10;seno = sin(radians(ang))&#10;cosse = cos(radians(ang))&#10;tange = tan(radians(ang))&#10;print(f'O ângulo de {ang} tem o SENO de {seno:.2f}')&#10;print(f'O ângulo de {ang} tem o COSSENO de {cosse:.2f}')&#10;print(f'O ângulo de {ang} tem a TANGENTE de {tange:.2f}')&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Exercicios/ex019.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex019.py" />
+              <option name="updatedContent" value="# Exercício 019&#10;# Um professor quer sortear um dos seus quatro alunos para apagar o quadro.&#10;# Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.&#10;from random import choice&#10;aluno1 = input('Primeiro aluno: ')&#10;aluno2 = input('Segundo aluno: ')&#10;aluno3 = input('Terceiro aluno: ')&#10;aluno4 = input('Quarto aluno: ')&#10;lista = [aluno1, aluno2, aluno3, aluno4]&#10;escolhido = choice(lista)&#10;print(f'O aluno escolhido foi {escolhido}')&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Exercicios/ex020.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex020.py" />
+              <option name="updatedContent" value="# Exercício 020&#10;# O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.&#10;# Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.&#10;from random import shuffle&#10;aluno1 = input('Primeiro aluno: ')&#10;aluno2 = input('Segundo aluno: ')&#10;aluno3 = input('Terceiro aluno: ')&#10;aluno4 = input('Quarto aluno: ')&#10;lista = [aluno1, aluno2, aluno3, aluno4]&#10;shuffle(lista)&#10;print('A ordem de apresentação será:')&#10;print(lista)&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Exercicios/ex021.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex021.py" />
+              <option name="updatedContent" value="# Exercício 021&#10;# Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.&#10;import pygame&#10;pygame.init()&#10;pygame.mixer.music.load('musica.mp3')&#10;pygame.mixer.music.play()&#10;input('Aperte enter para parar a música')&#10;pygame.mixer.music.stop()&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
