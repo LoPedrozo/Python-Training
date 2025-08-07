@@ -3,38 +3,6 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/Exercicios/ex028.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex028.py" />
-              <option name="updatedContent" value="# Exercício 28&#10;# Gere um número aleatório entre 0 e 5 e peça para o usuário tentar adivinhar.&#10;import random&#10;numero = random.randint(0, 5)&#10;chute = int(input('Adivinhe o número entre 0 e 5: '))&#10;if chute == numero:&#10;    print('Parabéns! Você acertou.')&#10;else:&#10;    print(f'Errado! O número era {numero}.')&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/Exercicios/ex029.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex029.py" />
-              <option name="updatedContent" value="# Exercício 29&#10;# Leia a velocidade de um carro e diga se ele foi multado por passar de 80km/h.&#10;velocidade = float(input('Qual a velocidade do carro? '))&#10;if velocidade &gt; 80:&#10;    multa = (velocidade - 80) * 7&#10;    print(f'Você foi multado! Valor da multa: R$ {multa:.2f}')&#10;else:&#10;    print('Velocidade dentro do limite.')&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/Exercicios/ex030.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex030.py" />
-              <option name="updatedContent" value="# Exercício 30&#10;# Leia um número inteiro e diga se ele é par ou ímpar.&#10;numero = int(input('Digite um número inteiro: '))&#10;if numero % 2 == 0:&#10;    print('O número é par.')&#10;else:&#10;    print('O número é ímpar.')&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/Exercicios/ex031.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex031.py" />
-              <option name="updatedContent" value="# Exercício 31&#10;# Calcule o preço da passagem de acordo com a distância.&#10;distancia = float(input('Qual a distância da viagem em km? '))&#10;if distancia &lt;= 200:&#10;    preco = distancia * 0.50&#10;else:&#10;    preco = distancia * 0.45&#10;print(f'O preço da passagem é R$ {preco:.2f}')&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/Exercicios/ex032.py">
           <value>
             <PendingDiffInfo>
@@ -50,22 +18,6 @@
               <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex033.py" />
               <option name="originalContent" value="a = int(input('Primeiro número: '))&#10;b = int(input('Segundo número: '))&#10;c = int(input('Terceiro número: '))&#10;maior = max(a, b, c)&#10;menor = min(a, b, c)&#10;print(f'Maior: {maior}\nMenor: {menor}')&#10;&#10;" />
               <option name="updatedContent" value="a = int(input('Primeiro número: '))&#10;b = int(input('Segundo número: '))&#10;c = int(input('Terceiro número: '))&#10;maior = max(a, b, c)&#10;menor = min(a, b, c)&#10;print(f'Maior: {maior}\nMenor: {menor}')" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/Exercicios/ex034.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex034.py" />
-              <option name="updatedContent" value="# Exercício 34&#10;# Calcule o novo salário com aumento de acordo com o valor atual.&#10;salario = float(input('Digite o salário: R$ '))&#10;if salario &gt; 1250:&#10;    novo = salario * 1.10&#10;else:&#10;    novo = salario * 1.15&#10;print(f'O novo salário é R$ {novo:.2f}')&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/Exercicios/ex035.py">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/Exercicios/ex035.py" />
-              <option name="updatedContent" value="# Exercício 35&#10;# Leia o comprimento de três retas e diga se podem formar um triângulo.&#10;r1 = float(input('Primeira reta: '))&#10;r2 = float(input('Segunda reta: '))&#10;r3 = float(input('Terceira reta: '))&#10;if r1 &lt; r2 + r3 and r2 &lt; r1 + r3 and r3 &lt; r1 + r2:&#10;    print('Os segmentos podem formar um triângulo.')&#10;else:&#10;    print('Os segmentos não podem formar um triângulo.')&#10;" />
             </PendingDiffInfo>
           </value>
         </entry>

@@ -1,6 +1,7 @@
 from itertools import count
 
 frase = 'Lorenzo Garcia Pedrozo'
+
 print(len(frase))
 print(frase.count('o'))
 print(frase.find('e', 5,22))
@@ -14,3 +15,4 @@ print(frase.title())
 print(frase.strip())
 print(frase.split())
 print('-'.join(frase))
+print(frase[:5])
